@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #EEE;
+}
+
+.container {
+    width: 1000px;
+    background-color: rgb(149 199 204);
+    margin: 0 auto;
+}
+
+#main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 120px;
+}
+
+.profile-image img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+.profile-name {
+    line-height: 2rem;
+    margin-left: -270px;
+    margin-top: 20px;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+.contact-info {
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.contact-info p a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-info p a:hover {
+    color: rgb(186 0 0);
+
+}
+
+#hr1 {
+
+    border: 0.5px solid black;
+}
+
+#sec1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.personal-info {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #a10000;
+}
+
+.personal-content {
+    padding: 20px;
+    line-height: 20px;
+}
+
+hr {
+
+    border: 2px solid black;
+}
+
+#p {
+    word-spacing: 3px;
+}
+
+#sec2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.experience {
+    flex: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #a10000;
+}
+
+.ex-info {
+    padding: 20px;
+    line-height: 20px;
+    border: 1.5px solid #060eff;
+    background-color: #eccccc;
+    margin-bottom: 5px;
+}
+
+#p2 {
+    margin: 20px 0;
+}
+
+#skill {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.my-skill {
+    flex: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #a10000;
+}
+
+.skill-info {
+    padding: 20px;
+    line-height: 24px;
+}
+
+.skill-info ul li {
+    background-color: #867878;
+    color: #dbd7d7;
+    border: 1px solid maroon;
+    font-weight: bold;
+    padding: 5px;
+    width: 555px;
+    list-style-type: none;
+}
+
+ul {
+    margin-right: -20px;
+}
+
+.skill-info ul li:hover {
+    background-color: #6d3939;
+    color: white;
+}
+
+#educational-backlog {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.education {
+
+    margin-left: -25px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #a10000;
+}
+
+.ssc-info {
+    margin-left: 177px;
+
+
+}
+
+#footer-area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px;
+    background-color: #00003d;
+    color: white;
+}
+.social-link{
+    margin: 15px 0;
+    font-size: 18px;
+}
+.social-link a{
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+.social-link a:hover{
+    color: red;
+}
+.copy-right-rules{
+    font-size: 11px;
+    color: #7d7676;
+}
